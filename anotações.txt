@@ -1,0 +1,21 @@
+SQL: banco de dados com tabelas e colunas (Mais organizado)
+NoSQL: não é armazenado em tabelas, é apenas armazenado, sendo por chave e valor e etc (Mais rápido)
+
+vai dando enter
+bota a senha
+
+create database nomedobanco
+\c nomedobanco;
+select * from nomedobanco //ver todas as tabelas;
+select name from nomedobanco//ve apenas essa coluna
+
+create table nomedatabela(elemento1 tipo ()tamanho regra);
+create table nomedatabela(nome varchar (50) not null);
+
+alter table nomedatabela add column cpf varchar (50) not null;
+
+update Users set vegan = true where id =1;
+
+Select * from Users where id = 2;
+delete from Users; //deleta todas as linhas
+drop table nome //deleta a tabela especifica
